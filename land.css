@@ -1,0 +1,12 @@
+body{
+    background-image: url("land.jpeg");
+    background-size: cover;
+    width: 50%;
+    background-position: center;
+}
+h1{
+    color: orange;
+}
+p:hover{
+    background-color: rgb(240, 240, 240);
+}

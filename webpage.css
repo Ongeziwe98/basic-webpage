@@ -1,0 +1,124 @@
+
+h1 {
+    font-style: italic;
+}  
+
+body {
+    background-image: url("3.jpg");
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .clearfix{
+    overflow: auto;
+  zoom: 1;
+  }
+
+  h2{
+      font-style: italic;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: black;
+  }
+
+div:hover{
+  background-color: rgb(240, 240, 240);
+}
+.Joburg img{
+  float: right;
+}
+/* .col-2{
+  padding: 1.5em; */
+}
+/* .column{
+  float: left;
+  display: block;
+  width: 30%;
+} */
+
+ /* .historicals img {
+  float: right;
+  max-width: 50%;
+  margin: 5%;
+}  */
+
+.main{
+  width: 94.75%;
+  margin: 0 auto;
+  overflow: hidden;
+} 
+.col{
+  width: 33.333%;
+  /* height: 500px; */
+  float: left;
+  text-align: center;
+}
+.footer{
+  clear: both;
+}
+.col img{
+float: right;
+}
+@media only screen and (max-width:768px){
+  .col-1, .col-2{
+    width: 100%;
+  }
+  .col-3{
+    width: 100%;
+  }
+  .col-2 img {
+    float: left;
+    padding: 1.5em;
+  }
+}
+@media only screen and (max-width:500px){
+  .col{
+    float: none;
+  }
+  /* li { margin: 0; padding: 0;
+     list-style-type: none;
+     } */
+  
+ 
+}
+
+  /* .hall img {
+    float: right;
+  } */
+  /* .col-1{
+    float: left;
+    display: block;
+    width:30%;
+  }
+  .col-2 {
+    float: right;
+    display: block;
+    width:30%;
+  }
+  .col-3 {
+    float: left;
+    display: block;
+    width:30%;
+  } */
+  /* .D img {
+    float: right;
+  } */
+  
+/* @media only screen and(max-width: 768px){
+  .col-1 , .col-2{
+    width:50%;
+  }
+  .col-3{
+    width:100%;
+  }
+}
+@media only screen and(max-width: 480px){
+  .col {
+    float: none;
+    width:100%;
+  }
+  
+  } */

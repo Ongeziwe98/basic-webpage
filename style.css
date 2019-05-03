@@ -1,0 +1,14 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .right{
+      float: right;
+      margin: 1em;
+  }
+
+  .left{
+      float: right;
+      margin: 1em;
+  }
